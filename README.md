@@ -1,22 +1,32 @@
 # movie-search-vue
 
+`assignment-4-movie-search-application`
+
 ## Project setup
 
 ```
+<> Install dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
+<>
+Create .env file
+VUE_APP_API_KEY=<your-omdb-api-key>
 
-```
+<> Compiles and hot-reloads for development
 npm run serve
-```
 
-### Compiles and minifies for production
+<> Start fake rest api
+npm run server
 
-```
+<> Compiles and minifies for production
 npm run build
+
+
 ```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 #Açıklama
 
@@ -49,7 +59,3 @@ The structures you need to do these operations are;
 axios, components, vue cli, vue router
 
 Good luck :)
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
