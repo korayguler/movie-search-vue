@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
+import Favorites from '../views/Favorites.vue';
 
 const routes = [
   {
@@ -10,9 +11,7 @@ const routes = [
   {
     path: '/favorites',
     name: 'Favorites',
-
-    component: () =>
-      import(/* webpackChunkName: "favorites" */ '../views/Favorites.vue'),
+    component: Favorites,
   },
 ];
 

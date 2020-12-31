@@ -1,7 +1,14 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/favorites">favorites</router-link>
-  </div>
+  <Header />
+
   <router-view />
 </template>
+
+<script>
+import Header from '@/components/Header';
+export default {
+  components: {
+    Header,
+  },
+};
+</script>

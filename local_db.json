@@ -1,1 +1,49 @@
-{}
+{
+  "favorites": [
+    {
+      "Title": "Dark Tenet",
+      "Year": "2014",
+      "imdbID": "tt2243233",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzdlNmIzNjMtYzMyNS00NjkwLWJkNjAtNjhlNzIyZTIyZDUwXkEyXkFqcGdeQXVyNDk3OTU1ODc@._V1_SX300.jpg",
+      "favorite": true,
+      "id": 2
+    },
+    {
+      "Title": "Tenet Noctis",
+      "Year": "2018",
+      "imdbID": "tt6141830",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmUwMTI5MjYtMjFiMi00MGRhLWFjZDMtYjBlZjQ2YmFiMWI3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMzM5NzYyNjc@._V1_SX300.jpg",
+      "favorite": true,
+      "id": 3
+    },
+    {
+      "Title": "Charlie and the Chocolate Factory",
+      "Year": "2005",
+      "imdbID": "tt0367594",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjcxMjg1Njg2NF5BMl5BanBnXkFtZTcwMjQ4NzMzMw@@._V1_SX300.jpg",
+      "favorite": true,
+      "id": 4
+    },
+    {
+      "Title": "Willy Wonka & the Chocolate Factory",
+      "Year": "1971",
+      "imdbID": "tt0067992",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTllNDU0ZTItYTYxMC00OTI4LThlNDAtZjNiNzdhMWZiYjNmXkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_SX300.jpg",
+      "favorite": true,
+      "id": 5
+    },
+    {
+      "Title": "The Tenet",
+      "Year": "2017",
+      "imdbID": "tt3626142",
+      "Type": "movie",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5MDAxNTE0Nl5BMl5BanBnXkFtZTgwNDAxMzU4MjE@._V1_SX300.jpg",
+      "favorite": true,
+      "id": 6
+    }
+  ]
+}
