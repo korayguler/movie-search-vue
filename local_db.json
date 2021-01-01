@@ -1,15 +1,6 @@
 {
   "favorites": [
     {
-      "Title": "Dark Tenet",
-      "Year": "2014",
-      "imdbID": "tt2243233",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNzdlNmIzNjMtYzMyNS00NjkwLWJkNjAtNjhlNzIyZTIyZDUwXkEyXkFqcGdeQXVyNDk3OTU1ODc@._V1_SX300.jpg",
-      "favorite": true,
-      "id": 2
-    },
-    {
       "Title": "Tenet Noctis",
       "Year": "2018",
       "imdbID": "tt6141830",
@@ -37,11 +28,11 @@
       "id": 5
     },
     {
-      "Title": "The Tenet",
-      "Year": "2017",
-      "imdbID": "tt3626142",
+      "Title": "Tenet",
+      "Year": "2020",
+      "imdbID": "tt6723592",
       "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ5MDAxNTE0Nl5BMl5BanBnXkFtZTgwNDAxMzU4MjE@._V1_SX300.jpg",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
       "favorite": true,
       "id": 6
     }

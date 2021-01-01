@@ -25,7 +25,7 @@ export default {
         const response = await Axios.get('http://localhost:3000/favorites');
         if (response.status == 200) this.favoriteMovies = response.data;
       } catch (err) {
-        console.log(err.response.body.data);
+        console.log(err);
       }
     },
     async removeFromFavorites(movie) {
@@ -34,7 +34,6 @@ export default {
         const response = await Axios.delete(
           `http://localhost:3000/favorites/${movie.id}`,
         );
-        console.log(response);
         if (response.status === 200) {
           this.favoriteMovies = this.favoriteMovies.filter(
             (m) => m.id !== movie.id,

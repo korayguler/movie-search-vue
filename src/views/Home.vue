@@ -30,7 +30,6 @@ export default {
           ...m,
           favorite: false,
         }));
-        console.log(response.data.Search);
       }
     },
     async favoriteMovie(movie) {
@@ -42,10 +41,18 @@ export default {
         }
       });
 
-      const request = await Axios.post(
-        'http://localhost:3000/favorites',
-        movie,
-      );
+      const request = await Axios.get('http://localhost:3000/favorites');
+
+      if (request.status === 200) {
+        let search = request.data.find((m) => m.imdbID == movie.imdbID);
+        if (search) return;
+        else {
+          const request = await Axios.post(
+            'http://localhost:3000/favorites',
+            movie,
+          );
+        }
+      }
     },
   },
 };

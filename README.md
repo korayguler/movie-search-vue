@@ -8,8 +8,7 @@
 <> Install dependencies
 npm install
 
-<>
-Create .env file
+<> Create .env file
 VUE_APP_API_KEY=<your-omdb-api-key>
 
 <> Compiles and hot-reloads for development
@@ -28,7 +27,7 @@ npm run build
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-#Açıklama
+### Açıklama
 
 Bu uygulama film ve dizileri **OmDb API** üzerinden arayıp bulabildiğiniz ve bunları favorilerinize ekleyip çıkartabildiğiniz bir uygulamadır. Bunun için ilk olarak yapmanız gereken [OmDb API](http://www.omdbapi.com/) üzerinden bir **api key** almanız gerekmektedir.
 
